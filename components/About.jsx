@@ -35,8 +35,8 @@ function About() {
           <br className="sm:block hidden" />
           I&apos;m well-versed in using UI frameworks like **Tailwind CSS**, 
           **Ant Design**, and **Material UI** to design sleek, modern interfaces.
-          I'm also enthusiastic about **TypeScript** and **Next.js**, and although I'm
-          a beginner, I’m constantly honing my skills in these technologies.
+          I&apos;m also enthusiastic about **TypeScript** and **Next.js**, and although I'm
+          a beginner, I&apos;m constantly honing my skills in these technologies.
           <br className="sm:block hidden" />
           I have a growing interest in **Web3** technologies and am eager to explore
           the future of decentralized web development.
