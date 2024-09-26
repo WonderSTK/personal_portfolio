@@ -128,7 +128,7 @@ const technologies = {
     {
       name: "Ethers.js",
       icon: "/assets/tech/ethers-logo.png",
-      link: "https://docs.ethers.org/v5//",
+      link: "https://docs.ethers.org/v5/",
     },
     {
       name: "Material UI",
@@ -256,6 +256,66 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Resume Genie",
+    description:
+      "Resume Genie is a full-stack app that helps users create professional resumes with AI. It features real-time preview, customization, and secure authentication via Clerk. Built with Next.js, Node.js, and MongoDB, it integrates the Gemini API for AI resume generation and TailwindCSS for responsive design, making resume creation easy and efficient.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next.js 14",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Gemini API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Mongo DB || Node js",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/assets/projects/resume_genie.png",
+    source_code_link: "https://github.com/WonderSTK/Resume-Genie",
+    deployed_link: "https://resume-genie-iiy3.vercel.app/",
+  },
+  {
+    name: "Formify AI",
+    description:
+      "Formify AI is an AI-powered form-building app that lets you create customizable forms effortlessly. With features like secure authentication, data export to Excel, and full form customization, Formify AI simplifies the form creation process for everyone.",
+    tags: [
+      {
+        name: "react js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rizzle ORM",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "DaisyUI",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/assets/projects/formify_ai.png",
+    source_code_link: "https://github.com/WonderSTK/Formify_AI",
+    deployed_link: "https://formify-ai-ypp7.vercel.app/",
+  },
+  {
     name: "Admin Dashboard",
     description:
       "A React-based CRM dashboard built with Refine, featuring secure authentication, real-time data, and a fully functional Kanban board. It includes company management, dynamic charts, and responsive design for seamless use across all devices.",
@@ -346,6 +406,33 @@ const projects = [
       "https://github.com/WonderSTK/MyTube",
     deployed_link:
       "https://my-tube-xi.vercel.app/",
+  },
+  {
+    name: "KharchaRupaiya",
+    description:
+      "KharchaRupaiya is your go-to expense tracker, making it simple to log, categorize, and monitor your spending. With an intuitive interface and real-time insights, it helps you stay on top of your finances, budget wisely, and achieve your financial goals. Take control of your expenses and manage your money effectively with KharchaRupaiya.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react/redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React DOM",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Web Vitals",
+        color: "orange-text-gradient",
+      },
+      
+    ],
+    image: "/assets/projects/kharcharupaiya.png",
+    source_code_link: "https://github.com/WonderSTK/KharchaRupaiya",
+    deployed_link: "https://kharcha-rupaiya.vercel.app/",
   },
   
 ];
