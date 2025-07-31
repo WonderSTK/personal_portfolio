@@ -28,18 +28,21 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Mehul Kumar, a front-end web developer passionate about
-          creating responsive, dynamic, and user-friendly web applications. I have
-          hands-on experience in **React**, **Redux**, **Redux Toolkit**, and 
-          JavaScript, with a focus on building scalable and maintainable applications.
+          Hello! I&apos;m Mehul Kumar, a passionate Frontend Engineer with 1+ years of experience 
+          building scalable web applications and user-centric interfaces. I specialize in the 
+          **React** ecosystem with expertise in **Redux/Toolkit**, **TypeScript**, and **Next.js**, 
+          focusing on performance optimization and delivering pixel-perfect responsive designs.
           <br className="sm:block hidden" />
-          I&apos;m well-versed in using UI frameworks like **Tailwind CSS**, 
-          **Ant Design**, and **Material UI** to design sleek, modern interfaces.
-          I&apos;m also enthusiastic about **TypeScript** and **Next.js**, and although I&apos;m
-          a beginner, I&apos;m constantly honing my skills in these technologies.
+          I excel at implementing UI designs from **Figma** with pixel-perfect accuracy and have 
+          achieved **40% performance improvements** through architectural refactoring using modern 
+          patterns like useRef and function-based flows. I&apos;m well-versed in **Tailwind CSS**, 
+          **Ant Design**, **Material UI**, and modern libraries like **Zustand**, **Tanstack Query**, 
+          and **Framer Motion**.
           <br className="sm:block hidden" />
-          I have a growing interest in **Web3** technologies and am eager to explore
-          the future of decentralized web development.
+          My experience includes full-stack development with **Node.js**, **Express.js**, payment 
+          gateway integrations, and implementing comprehensive monitoring solutions with **Sentry** 
+          and **Mixpanel**. I have a keen interest in **Web3** technologies and **Solidity** 
+          development, constantly exploring the future of decentralized applications.
         </div>
         <div className="w-fit break-words">
           <Link
@@ -65,7 +68,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="../assets/MehulKumar_Resume.pdf"
+          href="../document/Mehul_Kumar_FE-Resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

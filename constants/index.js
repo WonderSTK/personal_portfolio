@@ -33,23 +33,23 @@ const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
-    icon: <FullStackIcon />,
-  },
-  {
-    title: "Frontend Developer",
+    title: "Frontend Engineer",
     icon: <FrontendIcon />,
   },
   {
-    title: "Web3 Enthusiast",
-    icon: <BackendIcon />,
+    title: "React Specialist",
+    icon: <FullStackIcon />,
   },
   {
-    title: "Open Source Contributor",
+    title: "Next.js Developer",
     icon: <ProblemSolvingIcon />,
   },
   {
-    title: "Freelancer",
+    title: "Full Stack Developer",
+    icon: <BackendIcon />,
+  },
+  {
+    title: "Web3 Developer",
     icon: <FreelancerIcon />,
   },
 ];
@@ -82,6 +82,21 @@ const technologies = {
       link: "https://en.cppreference.com/w/c++",
     },
     {
+      name: "C",
+      icon: "/assets/tech/c.svg",
+      link: "https://en.cppreference.com/w/c",
+    },
+    {
+      name: "Python",
+      icon: "/assets/tech/python.svg",
+      link: "https://www.python.org/",
+    },
+    {
+      name: "SQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+    {
       name: "Solidity",
       icon: "/assets/tech/solidity.svg",
       link: "https://soliditylang.org/",
@@ -97,6 +112,21 @@ const technologies = {
       name: "TailwindCSS",
       icon: "/assets/tech/tailwindcss.svg",
       link: "https://tailwindcss.com/",
+    },
+    {
+      name: "Node.js",
+      icon: "/assets/tech/nodejs.svg",
+      link: "https://nodejs.org/",
+    },
+    {
+      name: "Express.js",
+      icon: "/assets/tech/expressjs.png",
+      link: "https://expressjs.com/",
+    },
+    {
+      name: "Vue.js",
+      icon: "/assets/tech/javascript.svg", // Using JS icon as placeholder
+      link: "https://vuejs.org/",
     },
     {
       name: "Three.js",
@@ -121,19 +151,54 @@ const technologies = {
       link: "https://redux.js.org/",
     },
     {
+      name: "Zustand",
+      icon: "/assets/tech/zustand.png",
+      link: "https://zustand-demo.pmnd.rs/",
+    },
+    {
+      name: "Tanstack Query",
+      icon: "/assets/tech/tanstack-query.png",
+      link: "https://tanstack.com/query/latest",
+    },
+    {
+      name: "Framer Motion",
+      icon: "/assets/tech/framer.svg",
+      link: "https://www.framer.com/motion/",
+    },
+    {
       name: "Ant Design",
       icon: "/assets/tech/ant-design.svg",
       link: "https://ant.design/",
     },
     {
-      name: "Ethers.js",
-      icon: "/assets/tech/ethers-logo.png",
-      link: "https://docs.ethers.org/v5/",
-    },
-    {
       name: "Material UI",
       icon: "/assets/tech/material-ui.png",
       link: "https://mui.com/material-ui/material-icons/",
+    },
+    {
+      name: "DaisyUI",
+      icon: "/assets/tech/tailwindcss.svg", // Using Tailwind icon as DaisyUI is Tailwind-based
+      link: "https://daisyui.com/",
+    },
+    {
+      name: "Headless UI",
+      icon: "/assets/tech/headlessui.png",
+      link: "https://headlessui.com/",
+    },
+    {
+      name: "Radix UI",
+      icon: "/assets/tech/radix-ui.png",
+      link: "https://www.radix-ui.com/",
+    },
+    {
+      name: "Pinia",
+      icon: "/assets/tech/javascript.svg", // Using JS icon as placeholder
+      link: "https://pinia.vuejs.org/",
+    },
+    {
+      name: "Ethers.js",
+      icon: "/assets/tech/ethers-logo.png",
+      link: "https://docs.ethers.org/v5/",
     },
   ],
   tools: [
@@ -162,6 +227,31 @@ const technologies = {
       icon: "/assets/tech/docker.svg",
       link: "https://www.docker.com/",
     },
+    {
+      name: "AWS",
+      icon: "/assets/tech/aws.png",
+      link: "https://aws.amazon.com/",
+    },
+    {
+      name: "Sentry",
+      icon: "/assets/tech/sentry.svg",
+      link: "https://sentry.io/",
+    },
+    {
+      name: "Mixpanel",
+      icon: "/assets/tech/javascript.svg", // Using JS icon as placeholder
+      link: "https://mixpanel.com/",
+    },
+    {
+      name: "Stripe",
+      icon: "/assets/tech/stripe.png",
+      link: "https://stripe.com/",
+    },
+    {
+      name: "Privy.io",
+      icon: "/assets/tech/privy.jpg",
+      link: "https://privy.io/",
+    },
   ],
   environments: [
     {
@@ -172,57 +262,71 @@ const technologies = {
   ],
   databases: [
     {
+      name: "MongoDB",
+      icon: "/assets/tech/mongodb.svg",
+      link: "https://www.mongodb.com/",
+    },
+    {
+      name: "MySQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+    {
       name: "GraphQL",
       icon: "/assets/tech/graphql.svg",
       link: "https://graphql.org/",
+    },
+    {
+      name: "Supabase",
+      icon: "/assets/tech/supabase.png",
+      link: "https://supabase.com/",
     },
     {
       name: "Firebase",
       icon: "/assets/tech/firebase.svg",
       link: "https://firebase.google.com/",
     },
+    {
+      name: "Redis",
+      icon: "/assets/tech/redis.png",
+      link: "https://redis.io/",
+    },
+    {
+      name: "Mongoose",
+      icon: "/assets/tech/mongodb.svg", // Using MongoDB icon (Mongoose is MongoDB ODM)
+      link: "https://mongoosejs.com/",
+    },
   ],
 };
 
 const experiences = [
   {
-    title: "Freelance Front-End Developer",
-    company_name: "Upwork",
-    icon: "/assets/company/upwork-logo.png", 
+    title: "Frontend Engineer",
+    company_name: "Proof of Skill",
+    icon: "/assets/company/proofofskill-logo.svg", 
     iconBg: "#E6DEDD",
-    date: "February 2024 - Present",
+    date: "Mar 2025 – Jul 2025",
     points: [
-      "Delivered high-quality front-end development services, specializing in React, Redux, and Next.js to create responsive and dynamic web applications.",
-      "Developed visually appealing and user-friendly websites using modern UI/UX design principles with frameworks such as Tailwind CSS, Ant Design, and Material UI.",
-      "Collaborated closely with clients to understand project requirements and deliver customized solutions, meeting deadlines and staying within project budgets.",
-      "Integrated APIs and handled state management using Redux to ensure seamless data flow and interaction between front-end components.",
-      "Kept up with the latest web development trends and technologies, actively exploring Web3 and blockchain-related front-end projects.",
+      "Designed and implemented a new UI for Skill.CV based on Figma, ensuring pixel-perfect responsive layout and UX improvements.",
+      "Refactored architecture using useRef and function-based flow—boosted performance by 40%.",
+      "Enhanced user completion rate via performance and UX optimization strategies.",
+      "Integrated Sentry for logging console, API, and user activity for better debugging and monitoring.",
+      "Added real-time heatmap filter logic for analytics and data visualization.",
+      "Worked closely with designers and backend teams to align UI implementation with business goals.",
     ],
   },
   {
-    title: "Open-Source Contribution",
-    company_name: "GirlScript Summer of Code (GSSoC)",
-    icon: "/assets/company/gssoc.jpg",
+    title: "Software Developer",
+    company_name: "Naga Soft Labs Pvt. Ltd.",
+    icon: "/assets/company/nagasoft-logo.svg", 
     iconBg: "#E6DEDD",
-    date: "Summer 2023",
+    date: "Aug 2024 – Mar 2025",
     points: [
-      "Actively participated in GirlScript Summer of Code (GSSoC), a global program promoting participation in open-source projects, by completing tasks across multiple projects.",
-      "Gained valuable insights into software development processes, open-source best practices, and effective collaboration within distributed teams.",
-      "Plan to continue contributing to open-source projects beyond GSSoC, leveraging acquired skills and experiences to further personal and professional growth in software development and community engagement.",
-      "earned certificates for contributions, showcasing commitment to the open-source community.",
-    ],
-  },
-  {
-    title: "Open-Source Contribution",
-    company_name: "Hacktoberfest 2022| Digital Ocean",
-    icon: "/assets/company/digital_ocean.svg",
-    iconBg: "#E6DEDD",
-    date: "October 2022",
-    points: [
-      "Actively participated in Hacktoberfest, an annual event promoting open-source contributions, by submitting 29 pull requests to various repositories.",
-      "Contributed to projects demonstrating proficiency in [Js/React,Redux-toolkit, solidity] and familiarity with version control systems like Git.",
-      "Collaborated with project maintainers and other contributors to implement new features, fix bugs, and improve code quality.",
-      "earned swags and certificates for contributions, showcasing commitment to the open-source community.",
+      "Built full backend system using Node.js, Express.js, and SQL ensuring high performance and scalability.",
+      "Fixed critical bugs and made UI enhancements for a social media platform, improving user experience.",
+      "Integrated payment gateways for seamless transactions and enhanced e-commerce functionality.",
+      "Developed responsive frontend components using React and Vue.js with modern state management.",
+      "Collaborated with cross-functional teams to deliver feature-rich applications on time.",
     ],
   },
 ];
